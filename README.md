@@ -1,6 +1,6 @@
 ![Timestamps header](./assets/header.png)
 
-<p style="text-align:center; font-style: italic">Easily convert timestamps to different formats.</p>
+<div align="center"><i>Convert between different timestamp formats.</i></div>
 
 ---
 
