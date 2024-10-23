@@ -1,38 +1,30 @@
-# create-svelte
+![Timestamps header](./assets/header.png)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+<p style="text-align:center; font-style: italic">Easily convert timestamps to different formats.</p>
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+I often finding myself needing to convert timestamps between different formats. Usually, I'd just Google a tool to do it and use the first one available.
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+I recently discovered SvelteKit and thought it would be cool to take a stab at it by building a simple converter.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Technology
 
-## Developing
+- **[SvelteKit](https://svelte.dev/)** for the actual application
+- **[Skeleton UI](https://www.skeleton.dev/)** for the UI elements
+- **[Date Picker Svelte](https://www.npmjs.com/package/date-picker-svelte)** for the date picker, since Skeleton doesn't have one.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Getting Started
 
-```bash
-npm run dev
+1. Clone the repository
+2. Open a terminal window and navigate to the root directory
+3. Run the application using `npm run dev`
+4. Navigate to the URL displayed in the terminal window.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+![Screenshot of Timestamps](./assets/screenshot.png)
 
-## Building
+## Contributing
 
-To create a production version of your app:
+If you find an error, please feel free to open an issue in GitHub and I'll take a look.
 
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+You're also more than welcome to contribute code if you'd like by forking the repository, making the change and making a pull request.
